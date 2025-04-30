@@ -1,0 +1,36 @@
+{
+  "name": "ai-material-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "build": {
+    "productName": "Easy Look",
+    "files": [
+      "dist/**/*",
+      "main.js",
+      "preload.js"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    },
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^35.2.1",
+    "electron-builder": "^26.0.12"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "three": "^0.176.0"
+  }
+}
