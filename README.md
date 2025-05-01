@@ -3,7 +3,7 @@
 
 ## 功能概览
 - **模型导入**：支持 `.obj` 格式模型；
-- **风格化纹理生成**：通过 Stable Diffusion+ControlNet风格迁移模型；
+- **风格化纹理生成**：使用Stable Diffusion+ControlNet风格迁移模型；
 - **法线贴图推理**：利用纹理亮度信息生成法线贴图，增强表面细节；
 - **物理着色支持**：使用 Three.js 的 PBR 渲染管线；
 - **基础光照模型**：使用基础的Blinn-Phong 模型模拟真实光照；
