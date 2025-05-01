@@ -1,2 +1,28 @@
 # Easy-Look
-A personalized model texture stylization conversion software
+一个自制的模型纹理贴图转换工具
+
+## 功能概览
+- **模型导入**：支持带贴图的 `.obj` 格式模型；
+- **风格化纹理生成**：通过 Stable Diffusion 风格迁移模型；
+- **法线贴图推理**：利用纹理亮度信息生成法线贴图，增强表面细节；
+- **物理着色支持**：使用 Three.js 的 PBR 渲染管线；
+- **基础光照模型**：使用基础的Blinn-Phong 模型模拟真实光照；
+---
+
+## 技术栈
+
+| 技术 | 说明 |
+|------|------|
+| `Three.js` | 实时 3D 渲染引擎，负责模型加载、材质绑定和光照模拟 |
+| `Electron` | 跨平台桌面应用框架|
+| `Stable Diffusion / ComfyUI` | 图像风格迁移模型 |
+---
+## 使用方式
+
+### 1. 安装依赖
+
+```bash
+npm install
+
+### 1. 安装依赖
+
